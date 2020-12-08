@@ -1,1 +1,2 @@
-# InspiDev-Wiki
+# Initial page
+
