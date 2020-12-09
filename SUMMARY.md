@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Building software](README.md)
 * [Software Estimation](software-estimation.md)
 
