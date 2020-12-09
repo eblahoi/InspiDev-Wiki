@@ -1,8 +1,10 @@
 # Software Estimation
 
+## Approaches
+
 ### Work Breakdown Structure \(WBS\)
 
-Work Breakdown Structure - bottom-up estimation approach.
+Work Breakdown Structure - bottom-up estimation approach. Also, known as "decomposition and recomposition".
 
 #### Concept
 
@@ -33,6 +35,19 @@ $$
 
 ## Estimation by proxy
 
+#### Concept
+
+* Elicit and count quantifiable components. Good things to count: number of screens, input fields, database tables, endpoints, reports
+* Project the estimate based on past experience of the efforts it took to build each component
+* Calibrate for project size and quality requirements
+  * Example: if the next project contains 20% more database tables, 10% more endpoints, and 30% more UI screens it is likely to take ~20% more effort to build 
+
+#### Best practices
+
+* **Count** when possible. Good things to count: number of screens, input fields, database tables, endpoints, reports
+* Don't estimate against differently sized projects. Bigger projects tend to require more effort to develop a single component due to team coordination, integration, and testing challenges
+* Don't estimate against projects of different types \(e.g. e-commerce vs blog engine\)
+
 ## Best practices
 
 * Split development in **phases**. Helps with building a schedule and parallelizing work.
@@ -43,5 +58,5 @@ $$
 
 ## References
 
-
+1. "Software Estimation: Demystifying the Black Art" by Steve McConnell
 
