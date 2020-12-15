@@ -3,4 +3,5 @@
 * [Building software](README.md)
 * [Software Estimation](software-estimation.md)
 * [Architecture Diagrams](architecture-diagrams.md)
+* [Code Review](code-review.md)
 
